@@ -29,7 +29,6 @@ public class ATest {
 		  Mockito.doReturn(-1).when(aSpy).getRecordCount();
 		flag=aSpy.findCount(10);
 		assertFalse(flag);
-		System.out.println("added By DEV2");
 	}
 
 }
